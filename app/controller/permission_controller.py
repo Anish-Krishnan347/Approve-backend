@@ -84,6 +84,7 @@ def list_permission():
             }
             for permission in permissions
         ]
+        
         return success_response(data=permission_list)
     except Exception as e:
         db.commit.rollback()
