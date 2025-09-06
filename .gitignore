@@ -1,0 +1,8 @@
+# Python backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+logs/
